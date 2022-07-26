@@ -13,3 +13,10 @@ const test4 = arr.myFilter(num => num === 20);
 
 // console.log(test3);
 // console.log(test4);
+
+// reduce test
+const test5 = arr.reduce((prevNum, currNum) => prevNum + currNum, 10);
+const test6 = arr.reduce((prevNum, currNum) => prevNum + currNum, 10);
+
+console.log(test5);
+console.log(test6);
